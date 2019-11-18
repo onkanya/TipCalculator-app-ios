@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA0EE96923805BF300A66402 /* ColorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0EE96823805BF200A66402 /* ColorTheme.swift */; };
+		FA240FAE237FCDF8004381EE /* BillAmountTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA240FAD237FCDF8004381EE /* BillAmountTextField.swift */; };
 		FA91EBA4237EA9B400FBC657 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA91EBA3237EA9B400FBC657 /* AppDelegate.swift */; };
 		FA91EBA6237EA9B400FBC657 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA91EBA5237EA9B400FBC657 /* SceneDelegate.swift */; };
 		FA91EBA8237EA9B400FBC657 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA91EBA7237EA9B400FBC657 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA0EE96823805BF200A66402 /* ColorTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTheme.swift; sourceTree = "<group>"; };
+		FA240FAD237FCDF8004381EE /* BillAmountTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillAmountTextField.swift; sourceTree = "<group>"; };
 		FA91EBA0237EA9B400FBC657 /* tipcalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tipcalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA91EBA3237EA9B400FBC657 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA91EBA5237EA9B400FBC657 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +63,8 @@
 				FA91EBA3237EA9B400FBC657 /* AppDelegate.swift */,
 				FA91EBA5237EA9B400FBC657 /* SceneDelegate.swift */,
 				FA91EBA7237EA9B400FBC657 /* ViewController.swift */,
+				FA0EE96823805BF200A66402 /* ColorTheme.swift */,
+				FA240FAD237FCDF8004381EE /* BillAmountTextField.swift */,
 				FA91EBA9237EA9B400FBC657 /* Main.storyboard */,
 				FA91EBAC237EA9B800FBC657 /* Assets.xcassets */,
 				FA91EBAE237EA9B800FBC657 /* LaunchScreen.storyboard */,
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA240FAE237FCDF8004381EE /* BillAmountTextField.swift in Sources */,
+				FA0EE96923805BF300A66402 /* ColorTheme.swift in Sources */,
 				FA91EBA8237EA9B400FBC657 /* ViewController.swift in Sources */,
 				FA91EBA4237EA9B400FBC657 /* AppDelegate.swift in Sources */,
 				FA91EBA6237EA9B400FBC657 /* SceneDelegate.swift in Sources */,
@@ -285,6 +293,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RW5P85SR89;
 				INFOPLIST_FILE = tipcalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +311,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RW5P85SR89;
 				INFOPLIST_FILE = tipcalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
